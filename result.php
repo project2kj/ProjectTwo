@@ -14,22 +14,11 @@
         $flowers = $_POST['flowers'];
 
 
-        //these echo statemnents can be removed, just wanted to print them to make sure the values were acting right.
-        echo $color;
-        echo "<br>";
-        echo $family;
-        echo "<br>";
-        echo $movie;
-        echo "<br>";
-        echo $door;
-        echo "<br>";
-        echo $flowers;
-        echo "<br>";
-
         //calculation of score
         $score = $color + $family + $movie + $door + $flowers;
-        //not necessary to share score with user, either way its okay
-        echo 'Your score is: '."$score"; 
+   
+        echo 'Your scored '."$score".'points'; 
+	echo "<br>";
 
         //Add if statements here using variable $score to determine personality 
 
@@ -39,13 +28,13 @@
         
         if($score<=25){
 		echo "<br>";
-		echo "You have a great personality.";
+		echo "You have a GREAT personality. Keep it up! ‭💪";
 	}elseif($score >= 26 && $score <= 50){
 		echo "<br>";
-		echo "You have a fair personality";			
+		echo "You have a fair personality.";			
 	}elseif($score >= 51 && $score <= 100){
 		echo "<br>";
-		echo "Have you thought about being a hermit.";
+		echo "Have you thought about being a hermit?... HORRIBLE PERSONALITY!";
 	}
 
         ?>
