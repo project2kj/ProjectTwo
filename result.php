@@ -36,6 +36,17 @@
             /* total of 0-25 = great personality!
              * total 25-50 = fair personality
              * total 50 and up = Horrible personality  */
+        
+        if($score<=25){
+			echo "<br>";
+			echo "You have a great personality.";
+		}elseif($score >= 26 && $score <= 50){
+			echo "<br>";
+			echo "You have a fair personality";			
+		}elseif($score >= 51 && $score <= 100){
+			echo "<br>";
+			echo "Have you thought about being a hermit.";
+		}
 
         ?>
 
