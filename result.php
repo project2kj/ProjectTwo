@@ -2,9 +2,10 @@
     <head>
         <meta http-equiv="Content-Type"
               content="text/html; charset=UTF-8">
-        <title>Nice to meet you!</title>
+        <title>Your Results</title>
     </head>
     <body>
+	<h1>Most Awesome personality test ever</h1>
         <?php
 
         $color = $_POST['color'];
