@@ -1,0 +1,41 @@
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="quizstyle.css" />
+   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Glass Antiqua' rel='stylesheet'>
+    <title>Simple HTML form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+  </head>
+
+  <body > <img src = "doc.png" id="fam" alt= "boy"  > <br>
+   <img src = "doc2.png" id="fam" alt= "boy"  > <br>
+   <img src = "doc3.png" id="fam" alt= "boy"  > 
+  <div class="centerpage">
+  <form action="personalityQuiz.php" method="post" >
+     <h1>  <p>What Is Your Name?</p>
+          <input name="firstname" type="text" size="50" />
+
+		
+     <p>About How Old Are You? </p>
+	 <div class="select"> 
+	 <select name="agerange" id="slct">
+	  <option>Select Your Age</option>
+	<option value="Early Adulthood" class="select_option" >18 to 25</option>
+	<option value="Young Adulthood" class="select_option">25 to 35</option>
+	<option value="Middle Aged Adulthood" class="select_option">36 to 40</option>
+
+		 
+    </select>
+
+  </div>
+  
+
+		  </h1>
+		    <input type="submit" class="button" value="Begin" name="submit" 
+ />  </form>
+	
+  </div>
+  
+  </body>
+</html>
